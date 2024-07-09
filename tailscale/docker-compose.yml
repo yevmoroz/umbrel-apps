@@ -9,3 +9,5 @@ services:
     command: "sh -c 'tailscale web --listen 0.0.0.0:8240 & exec tailscaled --tun=userspace-networking'"
     volumes:
       - ${APP_DATA_DIR}/data:/var/lib
+    environment:
+      - TS_EXTRA_ARGS=--advertise-exit-mode --exit-node-allow-lan-access
