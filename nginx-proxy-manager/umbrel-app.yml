@@ -1,0 +1,35 @@
+manifestVersion: 1
+id: nginx-proxy-manager
+category: developer
+name: Nginx Proxy Manager
+version: "2.11.3"
+tagline: Expose your services easily and securely
+description: >-
+  Expose web services on your network · Free SSL with Let's Encrypt · Designed with security in mind · Perfect for home networks
+
+  Expose your private network Web services and get connected anywhere.
+
+  Based on Tabler, the interface is a pleasure to use. Configuring a server has never been so fun.
+
+  Built in Let’s Encrypt support allows you to secure your Web services at no cost to you. The certificates even renew themselves!
+
+  Built as a Docker Image, Nginx Proxy Manager only requires a database.
+
+  Configure other users to either view or manage their own hosts. Full access permissions are available.
+
+developer: Jamie Curnow, Yev Moroz
+website: https://nginxproxymanager.com/
+dependencies: []
+repo: https://github.com/NginxProxyManager/nginx-proxy-manager
+support: yev.moroz.dev@gmail.com
+port: 81
+gallery:
+  - 1.jpg
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+torOnly: false
+releaseNotes: >-
+  Full release notes here: https://github.com/NginxProxyManager/nginx-proxy-manager/releases/tag/v2.11.3
+submitter: Yev Moroz
+submission: https://github.com/getumbrel/umbrel-apps/pull/1038
